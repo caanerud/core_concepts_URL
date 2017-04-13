@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Movies!</title>
+    <link rel="stylesheet" type="text/css" th:href="@{styles.css}" href="../static/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"/>
+    <ul  style="list-style-type:none">
+        <li>Create a list of your movie titles!</li>
+
+    </ul>
+
+
+
+
+</head>
+<body>
+<h1 class="enter">Enter a movie!</h1>
+
+<form class="info" action="/enterMovies" method="post">
+    Movie title: <input type="text" name="title" value="" /><br />
+    Star rating: <input type="text" name="star" value="" /><br />
+    Pending: <input type="text" name="Pending" value="" /><br />
+    Pending: <input type="text" name="Pending" value="" /><br />
+    Pending: <input type="text" name="Pending" value="" /><br />
+
+
+
+
+ <!--   <select name="stateProvinceId">
+        <option th:each="movie : ${}" th:value="${()}" th:text="${()}"></option>
+
+    </select><br/>
+
+-->
+
+    <button>Submit!</button>
+</form>
+
+
+</body>
+</html>

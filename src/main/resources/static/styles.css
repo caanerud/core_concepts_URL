@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/13/11/26/film-158157_1280.png
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ul{
+    text-align: right;
+    font-size:  40px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.popcorn{
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right: 850px;
+}
+
+.link{
+    float: right;
+    margin-right: 850px;
+    font-size: 30px;
+}
+
+.enter{
+    float: right;
+
+}
+.info{
+    float: right;
+
+}
